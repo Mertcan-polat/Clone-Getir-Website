@@ -1,6 +1,5 @@
 import { BiGlobe } from "react-icons/bi";
-import { RiUserFill, RiUserAddFill } from "react-icons/ri";
-import { HiLocationMarker } from "react-icons/hi";
+import { HiLocationMarker, HiUserAdd, HiUser } from "react-icons/hi";
 import { IoIosArrowForward } from "react-icons/io";
 
 export default function Header() {
@@ -24,14 +23,14 @@ export default function Header() {
               href="#"
               className="flex items-center gap-x-2 text-white transition-all text-opacity-80 hover:text-opacity-100"
             >
-              <RiUserFill size={20} />
+              <HiUser size={20} />
               Giriş Yap
             </a>
             <a
               href="#"
               className="flex items-center gap-x-2 text-white transition-all text-opacity-80 hover:text-opacity-100"
             >
-              <RiUserAddFill size={20} />
+              <HiUserAdd size={20} />
               Kayıt Ol
             </a>
           </nav>
